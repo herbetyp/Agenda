@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block titulo %} {{detalhes.nome}} {{ detalhes.sobrenome }} | {% endblock %}
+
+{% block conteudo %}
+<h1 class="mt-5">{{ detalhes.nome }} {{ detalhes.sobrenome }}</h1>
+
+    {% if detalhes.foto %}
+        <p>
+            <img src="{{ detalhes.foto.url }}" style="max-width: 250px; height: auto;">
+        </p>
+    {% endif %}
+
+    <dl>
+        <dt>ID</dt>
+        <dd>{{ detalhes.id }}</dd>
+
+        <dt>Telefone</dt>
+        <dd>{{ detalhes.telefone }}</dd>
+
+        <dt>E-mail</dt>
+        <dd>{{ detalhes.email }}</dd>
+
+        <dt>Data criação</dt>
+        <dd>{{ detalhes.data_criacao|date:'d/m/Y H:i:s' }}</dd>
+
+        <dt>Categoria</dt>
+        <dd>{{ detalhes.categoria }}</dd>
+
+        <dt>Descrição</dt>
+        <dd>{{ detalhes.descricao }}</dd>
+    </dl>
+{% endblock %}
