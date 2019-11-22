@@ -1,0 +1,101 @@
+/*
+ALTERAR: 3985b1 -> Cor do topo
+ALTERAR: 638ac2 -> Cor dos links e cabeçalhos
+*/
+
+#branding h1,
+#branding h1 a,
+#branding h1 a:link,
+#branding h1 a:visited {
+    color: #FFFFFF;
+}
+
+#header {
+    background: #3985b1;
+    color: #FFFFFF;
+}
+
+#user-tools a:focus, #user-tools a:hover {
+    border-bottom-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+a:link, a:visited {
+    color: #638ac2;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: #638ac2;
+    color: #FFFFFF;
+}
+
+div.breadcrumbs {
+    background: #638ac2;
+    color: #FFFFFF;
+}
+
+.paginator a:link, .paginator a:visited {
+    background: #638ac2 !important;
+    color: #FFFFFF;
+}
+
+.paginator a:hover {
+    background: #3985b1 !important;
+    color: #FFFFFF;
+}
+
+.button.default, input[type=submit].default, .submit-row input.default {
+    background: #638ac2;
+}
+
+.button.default:active,
+input[type=submit].default:active,
+.button.default:focus,
+input[type=submit].default:focus,
+.button.default:hover,
+input[type=submit].default:hover {
+    background: #3985b1;
+}
+
+.object-tools a:focus, .object-tools a:hover {
+    background-color: #638ac2;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: #3985b1;
+    color: #FFFFFF;
+}
+.button:active,
+input[type=submit]:active,
+input[type=button]:active,
+.button:focus,
+input[type=submit]:focus,
+input[type=button]:focus,
+.button:hover,
+input[type=submit]:hover,
+input[type=button]:hover {
+    background-color: #2999ac;
+}
+
+#changelist-filter li.selected a {
+    color: #638ac2 !important;
+}
+
+#changelist-filter a:focus,
+#changelist-filter a:hover,
+#changelist-filter li.selected a:focus,
+#changelist-filter li.selected a:hover {
+    color: #3985b1 !important;
+}
+
+.selector-chosen h2 {
+    background: #638ac2 !important;
+    color: #FFFFFF;
+}
+
+a.active.selector-chooseall:focus,
+a.active.selector-clearall:focus,
+a.active.selector-chooseall:hover,
+a.active.selector-clearall:hover {
+    color: #638ac2 !important;
+}
