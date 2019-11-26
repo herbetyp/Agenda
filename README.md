@@ -5,7 +5,6 @@ Projeto Agenda - curso do Prof. Otávio Miranda
 
 ## Projeto apenas para fins **didáticos** não é um projeto **"real"** ##
 
-### Deploy Temporário no GCP(google cloud platform) [nginx e gunicorn] ###
 
 Desenvolvido com Django 2.2.7 - Python 3.7.5 - MariaDB/MySQL 10.1.43
 
