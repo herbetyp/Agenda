@@ -13,7 +13,7 @@ Desenvolvido com Django 2.2.7 - Python 3.7.5 - MariaDB/MySQL 10.1.43
 ## Como rodar o projeto? ##
 
 ```
-git clone git@github.com:Hp2501/Agenda.git
+git clone https://github.com/Hp2501/Agenda.git
 cd Agenda
 python3 -m venv .venv
 source .venv/bin/activate
