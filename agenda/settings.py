@@ -80,8 +80,8 @@ WSGI_APPLICATION = 'agenda.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-	'default': config('DATABASE_URL', default='django.db.backends.mysql', cast=db_url)
-	}
+    'default': config('DATABASE_URL', default='django.db.backends.mysql', cast=db_url)
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -139,10 +139,3 @@ MESSAGE_TAGS = {
     constants.SUCCESS: 'alert-success',
     constants.INFO: 'alert-info',
 }
-
-# Server Configuration
-try:
-    from .local_settings import *
-except ImportError:
-    pass
-

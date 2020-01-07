@@ -15,9 +15,8 @@ Desenvolvido com Django 2.2.7 - Python 3.7.5 - MariaDB/MySQL 10.1.43
 ```
 git clone https://github.com/Hp2501/Agenda.git
 cd Agenda
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+pipenv install
+pipenv shell
 python contrib/env_gen.py
 python manage.py migrate
 python manage.py createsuperuser
